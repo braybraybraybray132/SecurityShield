@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- This file tells Visual Studio what kind of app this is and how to build it. -->
+  <PropertyGroup>
+    <!-- WinExe = a Windows app with a window (not a console app). -->
+    <OutputType>WinExe</OutputType>
+    <!-- .NET 8 for Windows. Installed with the ".NET desktop development" workload. -->
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <!-- Turns on WPF, the toolkit we use to build the dashboard screen. -->
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>SecurityShield</RootNamespace>
+    <AssemblyName>SecurityShield</AssemblyName>
+  </PropertyGroup>
+
+</Project>
